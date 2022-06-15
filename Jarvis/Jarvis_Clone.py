@@ -27,7 +27,7 @@ def take_command():
         pass
     return command
 
-def run_alexa():
+def run_jarvis():
     command = take_command()
     print(command)
     if 'play' in command:
@@ -49,4 +49,4 @@ def run_alexa():
     else:
         talk('Please say the command again.')
 while True:
-    run_alexa()
+    run_jarvis()
